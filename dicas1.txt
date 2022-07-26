@@ -1,0 +1,40 @@
+# HashTag Programação 
+## Projeto 1 
+link: https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga
+1 - Antes de começar qualquer projeto: 
+	escreva o passo a passo do código;
+2 - Para automatizar mouse, teclado e a tela do computador:
+	usamos a biblioteca: "pyautogui"
+	para instalar: pip install pyautogui
+3 - Comandos pyautogui:
+	pyautogui.PAUSE = 1 (para esperar 1 seg entre cada comando)
+	pyautogui.click
+	pyautogui.mouse
+	pyautogui.write
+	pyautogui.hotkey()
+4 - Para entrar no navegador:
+	pyautogui.press('win')
+	pyautogui.write('chrome')
+	pyautogui.press('enter')
+5 - Importar também a biblioteca "pyperclip":
+	é o famoso ctrl c, ctrl v;
+	pyperclip.copy()
+	pyautogui.hotkey('ctrl', 'v')
+6 - Colocar o delay para dar tempo o site carregar:
+	import time
+	usar o sleep(5)
+7 - Para descobrir as coordenadas do mouse na tela usaremos:
+	time.sleep(5)
+	pyautogui.position()
+8 - Para ler arquivo excel em python:
+	**Usaremos o pandas
+	**Para isso precisamos baixar:	
+		1.pandas
+		2.openpyxl
+		3.numpy
+	**obs.: Para a IDE Jupyter não precisa baixar nada, apenas importar;
+	Usaremos então o comando e colocaremos na variável tabela:
+		tabela = "pandas.read_excel(r"<caminho do arquivo>")
+//Site útel:
+https://acervolima.com/automacao-gui-usando-python/#:~:text=Al%C3%A9m%20disso%2C%20usamos%20um%20par%C3%A2metro,com%20o%20bot%C3%A3o%20esquerdo%20padr%C3%A3o.
+
